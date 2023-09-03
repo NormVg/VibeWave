@@ -1,0 +1,29 @@
+body{
+    background: #0A0C10;
+    color: #93B1A6;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+header img {
+    width: 80px;
+}
+.names{
+    margin-top: 1px;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+#playerCon{
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0%;
+    background-color: #183D3D;
+    left: 0%;
+}
