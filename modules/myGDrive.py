@@ -10,6 +10,8 @@ permission = {
 }
 import os
 gauth = GoogleAuth()
+# gauth.LocalWebserverAuth()
+# gauth.SaveCredentialsFile("cred.json")
 gauth.LoadCredentialsFile("cred.json")
 
 drive = GoogleDrive(gauth)

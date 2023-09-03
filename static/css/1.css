@@ -19,6 +19,13 @@ header img {
     border-bottom: 2px solid white;
     border-left: 2px solid white;
 }
+dl{
+    width: 100%;
+    max-width: 97vw;
+}
+dt{
+    max-width: 95vw;
+}
 #playerCon{
     height: 10vh;
     width: 100vw;
